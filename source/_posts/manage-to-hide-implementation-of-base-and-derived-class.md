@@ -15,13 +15,13 @@ tags: [coding, c++, multiple inheritance, Diamond of Death]
 ##### 简单版需求：要隐藏某一个类#####
 
 为了和后文统一，就称这个类名为**Base**。那么要做的是：首先将其隐姓埋名，改称**BaseImpl**（Impl是implementation的简称），再建立一个冒名顶替的**Base**类作为他的爸爸。
-![BaseImpl继承Base](https://github.com/veslam/ImagesForBlog/raw/master/res/20161107_01_HideImpl.png)
+![BaseImpl继承Base](https://raw.githubusercontent.com/veslam/blog/master/res/20161107_01_HideImpl.png)
 
 具体实现方式：**继承** + **Factory Method** + **纯虚方法** / **GetImpl() downcasting** （二选一）
 参考链接：[Hiding-Implementation-Details-in-C](http://www.codeproject.com/Articles/42466/Hiding-Implementation-Details-in-C)最后一段。作者把BaseImpl的定义和实现都放进了Base.cpp，但我做了些改动以使结构清晰，将两个类的定义和实现拆了出来放到各自的.h/.cpp中。
 
 1) 采用**纯虚方法**（个人推荐）：
-![继承 + Factory Method + 纯虚方法 (灰色箭头为#import关系)](https://github.com/veslam/ImagesForBlog/raw/master/res/20161107_02_HideImpl.png)
+![继承 + Factory Method + 纯虚方法 (灰色箭头为#import关系)](https://raw.githubusercontent.com/veslam/blog/master/res/20161107_02_HideImpl.png)
 >The client no longer sees any of the implementation details. The cost is that we are now required to have a factory method and virtual methods.
 
 ``` C 
@@ -65,7 +65,7 @@ void FooImpl::SetPosition(float x, float y)
 ```
 
 2) 采用 **GetImpl() downcasting 方法**：
-![继承 + Factory Method + GetImpl() downcasting (灰色箭头为#import关系)](https://github.com/veslam/ImagesForBlog/raw/master/res/20161107_03_HideImpl.png)
+![继承 + Factory Method + GetImpl() downcasting (灰色箭头为#import关系)](https://raw.githubusercontent.com/veslam/blog/master/res/20161107_03_HideImpl.png)
 >By downcasting in the class methods, we get access to the implementation data without virtual methods.
 
 ``` C 
@@ -107,7 +107,7 @@ void Foo::SetPosition(float x, float y)
 
 然而我的最终目标是**隐藏一对本来已经存在继承关系的父子类**，在依照上述方法2)拓展时遭遇无法解决的问题。
 结构应该拓展为下图的关系，这样既满足外露的**Base**和**Derived**类的父子关系，又满足**BaseImpl**和**DerivedImpl**类的父子关系。
-![继承关系](https://github.com/veslam/ImagesForBlog/raw/master/res/20161107_04_HideImpl.png)
+![继承关系](https://raw.githubusercontent.com/veslam/blog/master/res/20161107_04_HideImpl.png)
 看到**DerivedImpl**继承了两个同源类，不好的预感已经产生……没错，就是*菱形继承 (Diamond of Death)* 之前还没有在实践中遇到过类似问题，这次花费的很多时间作为补课。
 
 >Base* d = Derived::Create();
@@ -134,7 +134,7 @@ class C : virtual public A {};
 class D : public B, public C {};
 
 啊哈，就是让中间两个父类**虚继承**爷爷类！那么扩展方法1)，我的实现结构应该如下：
-![结构图 Base和Derived，BaseImpl和DerivedImpl分别共用.h和.cpp](https://github.com/veslam/ImagesForBlog/raw/master/res/20161107_05_HideImpl.png)
+![结构图 Base和Derived，BaseImpl和DerivedImpl分别共用.h和.cpp](https://raw.githubusercontent.com/veslam/blog/master/res/20161107_05_HideImpl.png)
 举个栗子🌰
 ``` C 
 // Define a public interface in Base.h

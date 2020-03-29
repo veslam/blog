@@ -20,7 +20,7 @@ tags: [computational geometry, convex hull, coding, Processing]
 Processing确实是快速做演示的好工具，把我用Mesh库做的两个小Demo放上来。
 
 接受鼠标点击，生成当前点集的凸包。
-![showConvexHull](https://github.com/veslam/ImagesForBlog/raw/master/res/20161119_01_ConvexHull.png)
+![showConvexHull](https://raw.githubusercontent.com/veslam/blog/master/res/20161119_01_ConvexHull.png)
 ``` C
 import megamu.mesh.*;
 
@@ -107,7 +107,7 @@ void rebuild() {
 ```
 
 接受鼠标点击，生成当前点集的Voronoi Diagram。
-![showVoronoiDiagram](https://github.com/veslam/ImagesForBlog/raw/master/res/20161119_02_VoronoiDiagram.png)
+![showVoronoiDiagram](https://raw.githubusercontent.com/veslam/blog/master/res/20161119_02_VoronoiDiagram.png)
 ``` C
 import megamu.mesh.*;
 

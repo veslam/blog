@@ -26,10 +26,10 @@ p.p.s. 已戒掉WOT。
 
 周六傍晚，全家带三只小狗（大虎在延庆）去“农业博物馆”溜溜。
 所谓博物馆，那里其实是一个精致的公园，名字也是通过公园里的广播得知的。（也可能包括附近的建筑？但没有研究。）在附近生活了这么久，第一次听说这地方的存在。
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20181222_01_Weekend.jpg)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20181222_01_Weekend.jpg)
 这个小公园的景致令人甚是喜爱！中央是地势较低的一座椭圆形的湖，以及环湖步道。据介绍，此湖原先是清代？的矿坑。湖中有人工水循环的水源涌出，因此附近没有结冰。看到冰上站立着两三只大天鹅？以及一群体型小的多的野鸭，一会儿在冰上整理，一会儿涌入湖水中，嘎嘎嘎叫个不停，十分自在。小狗们跑着跑着，也自己到湖边，小心翼翼地向湖面嗅探，虽然好奇但自知下去危险，就跑开继续玩。
 有两条路可跨湖而过，一条经过小石拱桥，一条经过左拐右拐的木栈道桥。牛牛起初上木桥时，趴在地上不敢走。
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20181222_02_Weekend.jpg)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20181222_02_Weekend.jpg)
 湖周边是大片的草地树木，铺有曲直石路供人步行游览，沿途分布着数座描绘农业劳作情景的青铜雕像，人物刻画细致，充满劳动人民的力量之美。果果隔着矮灌木丛一时分辨不清那头大青牛是真是假，还想过去寒暄一番。此外还有一段小长廊。
 与湖边一样，此处也是面积并不很大但又精致又有层次感。正值冬日傍晚，人迹稀少，想象一下若能在此晒着太阳空坐一整天，必然是十分幸福。
-![归 妈妈拍摄](https://github.com/veslam/ImagesForBlog/raw/master/res/20181222_03_Weekend.jpg)
+![归 妈妈拍摄](https://raw.githubusercontent.com/veslam/blog/master/res/20181222_03_Weekend.jpg)

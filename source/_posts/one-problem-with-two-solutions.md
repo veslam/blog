@@ -21,7 +21,7 @@ The third row contains two numbers __DestinationX__ and __DestinationY__, repres
 This is followed by __N__ rows containing __M__ numbers each, containing the values for the matrix representing the lake.
 >
 __Sample__
-![Start和End之间最大路径宽度为5](https://github.com/veslam/ImagesForBlog/raw/master/res/20161213_01_HackerRank.png)
+![Start和End之间最大路径宽度为5](https://raw.githubusercontent.com/veslam/blog/master/res/20161213_01_HackerRank.png)
 
 __题意__
 四连通矩阵，求起始点到目标点之间，最大的路径容量。路径容量由途经元素中最小的容量决定。

@@ -58,8 +58,8 @@ PIXAR：视角：现实->新颖
 +有梯度、深度，反复体验
 -用完就走。
 
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20160904_01_Pama.jpg)
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20160904_02_Pama.jpg)
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20160904_03_Pama.jpg)
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20160904_04_Pama.jpg)
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20160904_05_Pama.jpg)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20160904_01_Pama.jpg)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20160904_02_Pama.jpg)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20160904_03_Pama.jpg)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20160904_04_Pama.jpg)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20160904_05_Pama.jpg)

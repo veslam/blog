@@ -5,7 +5,7 @@ tags: [HackerRank, OJ, coding, dynamic programming, python, nim game]
 ---
 [Week of Code 26](https://www.hackerrank.com/contests/w26/challenges) 平生第一次参加OJ竞赛，一周的比赛时间到北京时间今天下午16点截止，每天放出一道题，我也度过了充满激情的充实七天，工作日的晚上以及周六日的全天，基本都面对着笔记本，码代码或是思考如何码。HackerRank界面简洁，易用性很高，以及排名机制什么的成功激起了我做题的欲望。
 
-![最终名次](https://github.com/veslam/ImagesForBlog/raw/master/res/20161205_01_HackerRankWeekOfCode26.png)
+![最终名次](https://raw.githubusercontent.com/veslam/blog/master/res/20161205_01_HackerRankWeekOfCode26.png)
 最终成绩是 [__521__ out of 6960](https://www.hackerrank.com/results/w26/veslam) 
 虽然看起来还行，名列前10%，但考虑到分母里有很多新手或是抱着参与着玩玩的心态的人，其实成绩差强人意，距离榜首的各位满分更是差距一百多分。
 然而比赛的意义并不只是排名，就像高三刷题一样，每个题涉及一或多个关键的知识点。下面我会具体总结一下知识方面，确实学到蛮多。最后记录下首次参赛的体会心得。
@@ -25,12 +25,12 @@ tags: [HackerRank, OJ, coding, dynamic programming, python, nim game]
 问题在于，所有i的倍数都要写一遍吗？答案是不用的。
 i x (1, 2, ... k)其实分为两部分，i x (1, 2, ... i-1) 和 i x (i, i+1, ... k)，第一部分一定已经在之前的筛查中被标记过，所以只需对于第二部分标记就行啦。
 这就是[Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)算法。
-![图示](https://github.com/veslam/ImagesForBlog/raw/master/res/20161205_02_Sieve_of_Eratosthenes_animation.gif)
+![图示](https://raw.githubusercontent.com/veslam/blog/master/res/20161205_02_Sieve_of_Eratosthenes_animation.gif)
 收获：标准答案里用i*i<n而不是i<sqrt(n)来限制i小于n的平方根。
 4. [Music on the Street](https://www.hackerrank.com/contests/w26/challenges/street-parade-1)
 换个方法描述题意就是，数轴被_n_个点分割为_n+1_个区间，拿一长度为m的线段贴合数轴，求线段起始位置，使得线段覆盖的所有区间（若部分覆盖则只算覆盖部分）的长度，都介于[_Hmin, Hmax_]
 情景想象出来了，也就得出了等价的判断方法。如图，绿色区间能放下线段即可。
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20161205_03_MusicStreet.png)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20161205_03_MusicStreet.png)
 宽度小于Hmin的区间，情况简单，直接涂红。
 宽度大于Hmax的区间，绿色部分要从左右分别侵入Hmax长度，表示线段可以覆盖到这两部分。
 同理，绿色部分还要侵入最左侧点向左Hmax和最右侧点向右Hmax。

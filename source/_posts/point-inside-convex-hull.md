@@ -39,7 +39,7 @@ The test is just checking whether the point lies on the right side of each recta
 
 那么下面就结合[第二个网页](http://www.blackpawn.com/texts/pointinpoly/)理解Right Test吧！它讲的很详细。
 例子是三角形ABC，但这个方法适用于所有凸多边形。
-![p是否在ABC内](https://github.com/veslam/ImagesForBlog/raw/master/res/20160727_01_RightTest.png)
+![p是否在ABC内](https://raw.githubusercontent.com/veslam/blog/master/res/20160727_01_RightTest.png)
 
 怎么判断点p是否在三角形内呢？既然这个三角形是由三条边围成的，那如果相对于每条边，点p与第三个点在同侧，就能确定p在三角形内。
 

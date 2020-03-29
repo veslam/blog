@@ -3,7 +3,7 @@ title: 一期一会
 date: 2018-03-19 21:14:43
 tags: [diary, memorial day]
 ---
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20180319_01_Memory.jpg)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20180319_01_Memory.jpg)
 当北京的朋友们为这场几近春分才迟来的降雪惊喜之时，身处太原的我并不觉得意外。它们只是安静地如约而至，沉静这世界。以及安抚这片公墓中，默默擦拭墓碑者的心。
 正如两年前的深夜，姥姥去世的噩耗骤然而至，清晨的火车窗外，茫茫白色平原上，稀疏的植被前赴后继地靠近又远离，而天空是无法看透的灰。
 

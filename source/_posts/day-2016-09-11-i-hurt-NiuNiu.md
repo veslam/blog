@@ -11,15 +11,15 @@ tags: [NiuNiu]
 
 哎，还是没心情写，放一些照片吧。
 
-![事发前的快乐牛牛](https://github.com/veslam/ImagesForBlog/raw/master/res/20160911_01_NiuNiu.jpg)
-![骨折拍片，想起来十分后怕，幸好换了医院，否则不能发现股骨头的伤。](https://github.com/veslam/ImagesForBlog/raw/master/res/20160911_02_NiuNiu.jpg)
-![手术进行留的照片，生怕是最后一张。](https://github.com/veslam/ImagesForBlog/raw/master/res/20160911_03_NiuNiu.jpg)
-![手术成功！再拍X光](https://github.com/veslam/ImagesForBlog/raw/master/res/20160911_04_NiuNiu.jpg)
-![享受ICU待遇](https://github.com/veslam/ImagesForBlog/raw/master/res/20160911_05_NiuNiu.jpg)
-![麻醉醒来后的小身体瑟瑟发抖](https://github.com/veslam/ImagesForBlog/raw/master/res/20160911_06_NiuNiu.jpg)
-![当晚留念](https://github.com/veslam/ImagesForBlog/raw/master/res/20160911_07_NiuNiu.jpg)
-![手术成功留念！](https://github.com/veslam/ImagesForBlog/raw/master/res/20160911_08_NiuNiu.jpg)
-![大夫今日清理旧的带血纱布，换上新纱布](https://github.com/veslam/ImagesForBlog/raw/master/res/20160911_09_NiuNiu.jpg)
-![清洁伤口](https://github.com/veslam/ImagesForBlog/raw/master/res/20160911_10_NiuNiu.jpg)
+![事发前的快乐牛牛](https://raw.githubusercontent.com/veslam/blog/master/res/20160911_01_NiuNiu.jpg)
+![骨折拍片，想起来十分后怕，幸好换了医院，否则不能发现股骨头的伤。](https://raw.githubusercontent.com/veslam/blog/master/res/20160911_02_NiuNiu.jpg)
+![手术进行留的照片，生怕是最后一张。](https://raw.githubusercontent.com/veslam/blog/master/res/20160911_03_NiuNiu.jpg)
+![手术成功！再拍X光](https://raw.githubusercontent.com/veslam/blog/master/res/20160911_04_NiuNiu.jpg)
+![享受ICU待遇](https://raw.githubusercontent.com/veslam/blog/master/res/20160911_05_NiuNiu.jpg)
+![麻醉醒来后的小身体瑟瑟发抖](https://raw.githubusercontent.com/veslam/blog/master/res/20160911_06_NiuNiu.jpg)
+![当晚留念](https://raw.githubusercontent.com/veslam/blog/master/res/20160911_07_NiuNiu.jpg)
+![手术成功留念！](https://raw.githubusercontent.com/veslam/blog/master/res/20160911_08_NiuNiu.jpg)
+![大夫今日清理旧的带血纱布，换上新纱布](https://raw.githubusercontent.com/veslam/blog/master/res/20160911_09_NiuNiu.jpg)
+![清洁伤口](https://raw.githubusercontent.com/veslam/blog/master/res/20160911_10_NiuNiu.jpg)
 
 牛牛早日好起来，好好对你一辈子。

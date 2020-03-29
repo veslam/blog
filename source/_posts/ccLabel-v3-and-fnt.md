@@ -44,21 +44,21 @@ __不支持设置字号、颜色、阴影等，这些效果都应在fnt制作中
 ##### _Glyph Designer_ 简单教程
 
 - 界面上方三个标签分别是：字体设计页面，效果预览，字符集选择页面。
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20180516_01_Glyph.gif)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20180516_01_Glyph.gif)
 
 - 先选择字符集（根据实际需要显示什么）比如只要数字,/,' '，只要大小写英文 等等。
 选完返回设计页面，会看到字符范围已更新。
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20180516_02_Glyph.gif)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20180516_02_Glyph.gif)
 
 - 情况一：美术已给字符切图，直接从finder拖入即可。
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20180516_03_Glyph.gif)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20180516_03_Glyph.gif)
 
 - 预览页面选中 Show Guides显示参考线，通过xAdvance 调整X方向字符间缩进，Y方向位移。
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20180516_04_Glyph.jpg)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20180516_04_Glyph.jpg)
 
 - 导出。产出为 fnt + png。
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20180516_05_Glyph.jpg)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20180516_05_Glyph.jpg)
 
 - 情况二：（比较少见）需要自己根据已知系统字体直接制作。调整各参数即可。
-![](https://github.com/veslam/ImagesForBlog/raw/master/res/20180516_06_Glyph.gif)
+![](https://raw.githubusercontent.com/veslam/blog/master/res/20180516_06_Glyph.gif)
 

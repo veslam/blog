@@ -38,7 +38,7 @@ Build Active Architecture Only => No
 這是為了讓build出來的Library也可以在模擬器上跑。
 修改後的結果應該有五個值: arm64, armv7, armv7s, i386, x86_64
 完整結果如圖片所示:
-![https://lh3.googleusercontent.com/-wnOpXEUQAXs/VY4uFgdXWvI/AAAAAAAAJFU/GMvuVionjUI/s1291/cocos2d-x-project-setting.png](https://github.com/veslam/ImagesForBlog/raw/master/res/20160915_01_Build.png)
+![https://lh3.googleusercontent.com/-wnOpXEUQAXs/VY4uFgdXWvI/AAAAAAAAJFU/GMvuVionjUI/s1291/cocos2d-x-project-setting.png](https://raw.githubusercontent.com/veslam/blog/master/res/20160915_01_Build.png)
 
 ##### 4. 使用Rakefile來建立Static Library
 
@@ -98,7 +98,7 @@ rake lipo
 >這大概只需要幾秒鐘就能跑完，跑完之後你會看到一個lib資料。裡面有一個libcocos2d iOS.a檔，檔案大小約 117.9 MB。這就是最終我們要的static library檔了。
 
 ** BUILD SUCCEEDED ** 开心😄
-![得到的libcocos.a就可以用啦！https://lh3.googleusercontent.com/-nGnHzsYT5YM/VY4uFL-wp7I/AAAAAAAAJFI/xkhOGuct6r0/s575/cocos2d-x-add-static-library.png](https://github.com/veslam/ImagesForBlog/raw/master/res/20160915_02_Build.png)
+![得到的libcocos.a就可以用啦！https://lh3.googleusercontent.com/-nGnHzsYT5YM/VY4uFL-wp7I/AAAAAAAAJFI/xkhOGuct6r0/s575/cocos2d-x-add-static-library.png](https://raw.githubusercontent.com/veslam/blog/master/res/20160915_02_Build.png)
 
 ## 一. 在目标Xcode工程中加入libcocos.a
 这里的目标工程就是指你用来制作Static Library的工程啦。
